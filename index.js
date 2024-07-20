@@ -11,7 +11,7 @@ app.get("/about", (req, res) => {
     res.send("<h1>Hi this is Ishaan<h1>");
 })
 
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
     console.log(`Server running on port ${port}.`);
 })
 
