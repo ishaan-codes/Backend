@@ -1,6 +1,5 @@
-import "dotenv/config";
-import express from "express";
-import nodemon from "nodemon";
+require('dotenv').config();
+const express = require('express');
 const app = express();
 const port = process.env.PORT;
 
